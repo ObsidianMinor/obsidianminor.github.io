@@ -37,6 +37,10 @@ h3, a, i {
   color: #bbb;
 }
 
+a {
+  margin-left: .5em;
+}
+
 h3 {
   margin-top: 2em;
   margin-bottom: 0;
