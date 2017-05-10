@@ -3,37 +3,45 @@ body {
   margin-bottom: 2em;
   margin-right: 2em;
   margin-left: 2em;
-  color: #fff
+  color: #fff;
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
   font-size: 16px;
   font-family: "Open Sans",Helvetica,Arial,sans-serif;
   line-height: 1.4;
-  background-image: url(images/main.png);
-  background-position: center;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-clip: border-box;
-  background-color: #070707;
+  background-image:url("images/background-new.png");
+  background-repeat:no-repeat;
+  background-color:#070707;
+  background-position:center;
+  background-attachment:fixed;
+  background-size:cover;
 }
 
 h1 {
   font-size: 3em;
 }
+
 h1, h2 {
   color: #fff;
   font-weight: 400;
   margin: 0;
 }
 
+h2 {
+  font-size: 16px;
+}
+
 h3, a, i {
   font-weight: 300;
-  color: #999;
+  color: #bbb;
 }
 
 h3 {
   margin-top: 2em;
   margin-bottom: 0;
+}
+
+#mini {
+  font-size: 10px;
 }

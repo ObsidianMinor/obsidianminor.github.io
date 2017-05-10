@@ -9,8 +9,7 @@
   <body>
     <title>ObsidianMinor</title>
     <h1>ObsidianMinor</h1>
-    <h2>I probably broke your computer or something. :(</h2>
-    <h3>btw I'm not a furry</h3>
+    <h2 id="subtitle">Javascript is disabled. RIP random subtitle function.</h2>
     <div class="everything">
       <h3>Contact me, maybe we can play a game.</h3>
       <ul>
@@ -41,5 +40,79 @@
         <a>Origin: ObsidianMinor</a>
       </ul>
     </div>
+    <div class="projects">
+      <h3>Check out some projects I've done</h3>
+      <ul>
+        <li>
+          <a href="https://github.com/ObsidianMinor/Gfycat.Net">Gfycat.Net</a>
+          <a id="mini" href="https://obsidianminor.github.io/Gfycat.Net">docs</a>
+        </li>
+      </ul>
+    </div>
+    <div class="opensource">
+      <h3>See some projects I've contributed to</h3>
+      <ul>
+        <li>
+          <a href="https://github.com/Nexus-Mods/Nexus-Mod-Manager">Nexus Mod Manager</a>
+        </li>
+        <li>
+          <a href="https://github.com/RogueException/Discord.Net">Discord.Net</a>
+        </li>
+      </ul>
+    </div>
+    <script>
+      (function() {
+        var subtitles = [
+          "Subtitle brought to you by Javascript and two minutes on Google",
+          "Check out C#",
+          ".NET Standard is the future",
+          "Gfycat is pretty good",
+          "undefined",
+          "'Minor' not 'Miner'",
+          "The name is not related to Minecraft, stop asking",
+          "Homophones!",
+          "Northstar ftw",
+          "Will program for money",
+          "Look! A pilot! Now the odds are in our favor!",
+          "But why",
+          "Catch-phrase!",
+          "InvalidResourceException",
+          "Check out Gfycat.Net",
+          "RIP BT-7274",
+          "SUMMARIES INTENSIFY",
+          "Just use the AppVeyor UI",
+          "xUnit is the best unit",
+          "Visual Studio 2017 is a crashaholic",
+          "//todo: this",
+          "Respawn, wtf was that",
+          "Thanks StackOverflow",
+          "Line 89",
+          "btw I'm not a furry",
+          "I have no idea, dude",
+          "See the docs!",
+          "Wanna hear a joke?",
+          "Floor it!",
+          "Just a sec...",
+          "Clearing the backlog of projects",
+          "KeyValues",
+          "What would we do without Json.NET",
+          "Robin Scott is a cool dude",
+          "Scoot scoot",
+          "saved for posterity",
+          "You cannot star your own message.",
+          "Praise be unto the almighty Jon Skeet",
+          "The input text has too few parameters.",
+          "Unknown command",
+          "rip",
+          "welp",
+          "cmagicalroutinewithpinvokefromcplusplusandjavaandrusttodosomewonderousthings opcode does not exists in this runtime.",
+          "Sarcasm does not compute",
+          "non-null reference types are the savior to .NET and my life has purpose now"
+        ];
+        var subtitle = subtitles[Math.floor(Math.random() * subtitles.length)];
+        document.getElementById("subtitle").innerHTML =
+          '<h2>' + subtitle + '</h2>'
+      })();
+  </script>
   </body>
 </html>
