@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="anonymous">
@@ -10,8 +10,7 @@
   </head>
   <body>
     <title>ObsidianMinor</title>
-    <h1>Sydney Acksman</h1>
-    <h2 id="subtitle">Javascript is disabled. RIP random subtitle function.</h2>
+    <h1 id="subtitle">Javascript is disabled. RIP random subtitle function.</h1>
     <div class="everything">
       <h3>Contact me, maybe we can play a game.</h3>
       <ul>
@@ -128,8 +127,8 @@
         ];
         var subtitle = subtitles[Math.floor(Math.random() * subtitles.length)];
         document.getElementById("subtitle").innerHTML =
-          '<h2>' + subtitle + '</h2>'
+          '<h1>' + subtitle + '</h1>'
       })();
-  </script>
+    </script>
   </body>
 </html>
